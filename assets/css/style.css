@@ -1,0 +1,152 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color:#ffffff;
+}
+
+.displaynone {
+	display:none;
+}
+
+#wrap {
+	min-height: 100%;
+	height: auto;
+	/* Negative indent footer by its height */
+	margin: 0 auto -60px;
+	/* Pad bottom by footer height */
+	padding: 0 0 60px;
+}
+
+#footer {
+	height:60px;
+	background-color: #231f20;
+	padding-top: 20px;
+}
+
+
+/************20-16-14 BANNER CSS START HERE **************/
+
+.banner_bg{background-color:#000000;}
+.content_bg{background-color:#050025;}
+.content_bg_2{background-color:#4440c0;}
+.content_bg_3{background-color:#FFF;}
+
+.links li {
+    display: inline-block;
+    text-align: center;
+	margin:0 10px;
+}
+
+.links > ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.window_buttton{  background:#6479ff;
+    border-radius: 3px;
+    box-shadow: 0 0 4px #3633b9;
+    color: #fff;
+    float: left;
+    text-align: center;
+    width: 247px;
+	font-size:16px;
+	font-family:"Conv_Canaro-Light";}
+.api_buttton{background:#7c7c7c;border-radius: 3px;
+    box-shadow: 0 0 4px #3633b9;
+    color: #fff;
+    float: left;
+    text-align: center;
+    width: 247px;
+	font-size:16px;
+	font-family:"Conv_Canaro-Light";
+	}
+	
+.all_buttons span {
+    display: block;
+	color:#fff;
+	font-size:12px;
+}
+
+.all_buttons > ul {
+    text-align: center;
+	margin:0px;
+	padding:0px;
+}
+
+.all_buttons li {
+    display: inline-table;
+    text-align: center;
+	padding:0 15px;
+	margin:0px;
+	background:url(../img/dot.jpg) no-repeat 0 35px;
+	
+}
+
+.all_buttons li:first-child{background:none;}
+
+.all_buttons li a{
+	text-decoration:none;
+}
+
+.round_but {
+    background-color: #4440c0;
+    border-radius: 100%;
+    height:80px;
+    text-align: center;
+    vertical-align: middle;
+    width: 80px;
+	line-height:80px;
+	margin: 0 0 10px 10px;
+}
+
+.position {
+    font-size: 20px !important;
+    left: 31px;
+    position: relative;
+    top: 29px!important;
+}
+
+.glyphicon.glyphicon-lock ,.glyphicon.glyphicon-star-empty ,.glyphicon.glyphicon-star , 
+.glyphicon.glyphicon-th-list, .glyphicon.glyphicon-align-justify , .glyphicon.icon-conversation,.glyphicon.glyphicon-globe,
+.glyphicon.glyphicon-tree-deciduous ,.glyphicon.glyphicon-plane,.glyphicon.glyphicon-comment{
+    color: #b4b3e6;
+}
+
+
+
+
+
+.round_but:hover {
+    box-shadow: 0 0 20px #4440c0;
+	background-color:#fff;
+	text-decoration:none;
+	border:none;
+}
+
+.all_buttons > p {
+    color: #fff;
+    margin: 45px 0;
+    text-align: center;
+	font-family:"Conv_Canaro-Light";
+}
+
+.body.collapse.in.center_but {
+    display: inline-block;
+	margin:0 40px;
+}
+
+.body.collapse.in.center_but a:hover {
+	text-decoration:none;
+}
+
+
+.col-lg-push-12.center_buttons {
+    text-align: center;
+}
+/************20-16-14 BANNER CSS ENDS HERE**************/
+
+
